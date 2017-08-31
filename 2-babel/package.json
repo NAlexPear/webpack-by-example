@@ -1,5 +1,5 @@
 {
-  "name": "webpack-by-example-simple",
+  "name": "webpack-by-example-babel",
   "version": "1.0.0",
   "description": "A series of webpack configuration examples",
   "main": "index.js",
@@ -12,6 +12,8 @@
   "author": "Alex Pearson",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "webpack": "^3.5.5"
   }
 }

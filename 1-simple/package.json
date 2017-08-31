@@ -1,0 +1,18 @@
+{
+  "name": "webpack-by-example-simple",
+  "version": "1.0.0",
+  "description": "A series of webpack configuration examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Alex Pearson",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^3.6.0",
+    "webpack": "^3.5.5"
+  }
+}

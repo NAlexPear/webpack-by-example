@@ -1,7 +1,3 @@
-function App(config){
-  this.label = config.label;
-};
-
 function photoAppender(url){
   var img = document.createElement('img');
 
@@ -11,10 +7,20 @@ function photoAppender(url){
   this.container.appendChild(img);
 }
 
+function getPhotoUrls(photos){
+  return photos.map(function(photo){
+    return photo.url;
+  })
+}
+
+function App(config){
+  this.label = config.label;
+};
+
 App.prototype.start = function start(container, photos){
   this.container = container;
 
-  photos.forEach(photoAppender);
+  getPhotoUrls(photos).forEach(photoAppender);
 }
 
 
