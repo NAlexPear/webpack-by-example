@@ -10,5 +10,6 @@
     "webpack"
   ],
   "author": "Alex Pearson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
