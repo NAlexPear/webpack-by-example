@@ -1,4 +1,5 @@
 var path = require('path');
+var webpack = require('webpack');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -8,9 +9,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
-    new HTMLWebpackPlugin()
+    new HTMLWebpackPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
   devServer: {
+    hot: true,
     historyApiFallback: true
   },
   module: {
