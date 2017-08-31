@@ -1,4 +1,4 @@
-import photo from './photo';
+import photo from './components/photo';
 
 export default class App {
   constructor(container){
