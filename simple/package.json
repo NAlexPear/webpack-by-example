@@ -1,14 +1,17 @@
 {
-  "name": "webpack-by-example",
+  "name": "webpack-by-example-simple",
   "version": "1.0.0",
   "description": "A series of webpack configuration examples",
-  "main": "README.md",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
   "keywords": [
     "webpack"
   ],
   "author": "Alex Pearson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.5.5"
+  }
 }
